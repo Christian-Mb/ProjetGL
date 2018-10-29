@@ -29,7 +29,7 @@ public class Connect {
 	    }
 		try {
 		
-			String url = "jdbc:mysql://localhost:8889/treasurehunter?useSSL=false";
+			String url = "jdbc:mysql://localhost:8889/edt?useSSL=false";
 			String user = "root";
 			String passwd = "root";
 

@@ -62,9 +62,9 @@ public class GestionRqt extends Connect {
 	}
 	
 	private void rsetToUser(final ResultSet rset) throws SQLException {
-		final Integer id = rset.getInt("userID");
-		final String username = rset.getString("Username");
-		System.out.println("id : "+ id + " Username : " + username);
+		final Integer id = rset.getInt("idUser");
+		final String email = rset.getString("email");
+		System.out.println("id : "+ id + " email : " + email);
 	}
 
 }
